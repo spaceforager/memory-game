@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="overlay-text visible">
+        Click to Start
+    </div>  
+
+    <div id="game-over-text" class="overlay-text">
+        GAME OVER
+        <span class="overlay-text-small" onClick="window.location.href=window.location.href">Click to Restart</span>
+    </div>  
+
+    <div id="victory-text" class="overlay-text">
+        VICTORY
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>  
+    
+    <section class="memory-game">
+
+        <h1 class="page-title">MEMORY GAME</h1>
+
+        <div class="game-info-container" id="game-info-cont">
+        
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+            </div>
+
+            <div class="game-info">
+                Flips <span id="flips">0</span>
+            </div>
+
+            <div class="game-info">
+                <button id="reset" onClick="window.location.href=window.location.href">Reset</button>
+            </div>
+
+            
+
+    
+        </div>
+
+        <div class="memory-card" data-framework="Dea">
+            <img class="front-face" src="Assets/Images/death.jpeg" alt="Death">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Dea">
+            <img class="front-face" src="Assets/Images/death.jpeg" alt="Death">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="HighPr">
+            <img class="front-face" src="Assets/Images/Highpriestess.jpeg" alt="Highpriestess">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="HighPr">
+            <img class="front-face" src="Assets/Images/Highpriestess.jpeg" alt="Highpriestess">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Just">
+            <img class="front-face" src="Assets/Images/Justice.jpeg" alt="Justice">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Just">
+            <img class="front-face" src="Assets/Images/Justice.jpeg" alt="Justice">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Stre">
+            <img class="front-face" src="Assets/Images/strength.jpeg" alt="Strength">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Stre">
+            <img class="front-face" src="Assets/Images/strength.jpeg" alt="Strength">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Empe">
+            <img class="front-face" src="Assets/Images/TheEmperor.jpeg" alt="Emperor">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Empe">
+            <img class="front-face" src="Assets/Images/TheEmperor.jpeg" alt="Emperor">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Foolish">
+            <img class="front-face" src="Assets/Images/Thefool.jpeg" alt="Fool">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Foolish">
+            <img class="front-face" src="Assets/Images/Thefool.jpeg" alt="Fool">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Hiero">
+            <img class="front-face" src="Assets/Images/TheHierophant.jpg" alt="Hierophant">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Hiero">
+            <img class="front-face" src="Assets/Images/TheHierophant.jpg" alt="Hierophant">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Gollum">
+            <img class="front-face" src="Assets/Images/TheSmeagol.jpeg" alt="Smeagol">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+        <div class="memory-card" data-framework="Gollum">
+            <img class="front-face" src="Assets/Images/TheSmeagol.jpeg" alt="Smeagol">
+            <img class="back-face" src="Assets/Images/LOTR_Logo.jpeg" alt="Logo">
+        </div>
+
+
+
+        
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
